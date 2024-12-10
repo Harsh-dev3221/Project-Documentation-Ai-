@@ -1,2 +1,52 @@
-# Project Documentation Ai 
- CodeDoc: Intelligent Documentation Generator Overview CodeDoc is a versatile VS Code extension and web application that transforms code into comprehensive, user-friendly documentation with unprecedented ease and flexibility. Key Features  Automatic code-to-documentation conversion Intelligent, section-specific documentation generation Interactive editing capabilities via AI-powered prompts Granular documentation management (edit by sections) Seamless integration with VS Code Web-based documentation sharing  Problem Solved Many developers struggle with creating and maintaining detailed documentation. CodeDoc simplifies this process by:  Generating clean, structured documentation automatically Allowing precise, section-by-section editing Providing an intuitive interface for non-technical team members Reducing documentation overhead  Target Audience  Software developers Technical writers Open-source project maintainers Development teams seeking efficient documentation workflows  Benefits  Reduces documentation time Improves code comprehension Enhances project knowledge sharing Supports multiple programming languages AI-assisted refinement of documentation  Empower your code with clear, accessible documentation using CodeDoc.
+
+
+## Project info
+
+
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
