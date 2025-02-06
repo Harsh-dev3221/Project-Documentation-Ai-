@@ -21,7 +21,7 @@ export const generateWithGroq = async (
         content: prompt
       },
     ],
-    model: "llama-3.1-70b-versatile",
+    model: "llama3-8b-8192",
     temperature: style === 'concise' ? 0.5 : 0.7,
     max_tokens: style === 'concise' ? 4000 : 8000,
     top_p: 0.65,
